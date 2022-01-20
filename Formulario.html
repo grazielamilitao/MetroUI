@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+		<meta charset="UTF-8">
+		<title> Contato </title>
+    <link rel="shortcut icon" href="Artes/cam.png">
+
+		<!-- Link do codigo CSS do Metro UI -->
+		<link rel = "stylesheet" href="Plugins/css/metro-all.min.css">
+		<link rel = "stylesheet" href="MetroUI-gp.css">
+
+		<!-- Scripts opcionais -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+	</head>
+
+  <body>
+    <div id="Container-Page">
+
+      <div class="app-bar-expand-md" data-role="appbar">
+        <a href="#" class="brand no-hover">
+          <span style="width: 55px;">
+            <img class="logo" src="artes/cam.png">
+          </span>
+        </a>
+        <ul class="app-bar-menu">
+          <li><a href="start.html">Home</a></li>
+          <li><a href="Sobre.html">Sobre</a></li>
+          <li><a href="Portifólio.html">Portifólio</a></li>
+          <li><a href="Desenvolvedores.html">Desenvolvedores</a></li>
+          <li><a href="Formulario.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class = "Container-Conteudo-Formulário">
+
+        <div class = "Container-Title">
+          <div class="img-box">
+            <img class="img-default" src="Artes/capa/Contato 1.jpg" />
+            <img class="img-hover" src="Artes/capa/Contato 2.jpg" />
+          </div>
+        </div>
+
+
+        <div class="Container-Fotos">
+
+			<div id="Conteiner-Conteudo-Contato">
+
+        <h2 class="vamos">
+					Vamos começar?
+				</h2>
+
+				<p>
+					Deixe suas informações para que entremos em contato
+				</p>
+
+				<div id="Conteiner-Formulario">
+					<form action="#" method="post">
+						<div class="pgContato">
+							<div class="contato">
+
+								<div class="formContato">
+									<input id="nome" name="nome" required="" type="text" placeholder="Nome *">
+								</div>
+
+								<div class="formContato50">
+									<input id="localevent" name="localevento" required="" type="text" placeholder="Local do evento">
+									<input id="date" type="text" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}" name="dataevento" placeholder="Data do evento" data-date-format="d/m/Y">
+
+								</div>
+
+								<div class="formContato50">
+									<input id="cidade" name="cidade" required="" type="text" placeholder="Cidade">
+								</div>
+
+								<div class="formContato">
+									<input id="email" name="email" required="" type="email" placeholder="E-mail *">
+								</div>
+
+								<div class="formContato50">
+									<input id="tel" name="tel" type="tel" placeholder="Telefone *">
+								</div>
+
+								<div class="formContato">
+									<textarea id="mensagem" name="mensagem" required="" placeholder="Mensagem *"></textarea>
+								</div>
+
+                <div class = "Acao-Enviar">
+                  <button class="button primary large rounded">
+                    ENVIAR
+                  </button>
+                </div>
+
+							</div> <!--Contato-->
+						</div> <!--Pg-contato-->
+					</div> <!--Conteiner-form-->
+				</form> <!--Formulário-->
+
+				<div id="Conteiner-Informacoes">
+					<div id="Inf-Inicio">
+						<span class="inf-neg">
+							E-mail:
+						</span>
+						<br>
+						<span class="inf">
+							Programação.web@gmail.com
+						</span>
+					</div>
+
+					<div id="Inf-Meio">
+						<span class="inf-neg">
+							Telefone:
+						</span>
+						<br>
+				    <span class="inf">
+							+55 (66) 66666-6666
+						</span>
+					</div>
+
+					<div id="Inf-Meio">
+						<span class="inf-neg">
+							WhatsApp:
+						</span>
+						<br>
+						<span class="inf">
+							<img class = "whatsapp" src = "Artes/Formulário/whatsapp.png">
+							<a href="https://chat.whatsapp.com/ElmaYdKsENX7WNei87tTa8" target="_blank">
+								Enviar mensagem
+							</a>
+						</span>
+					</div>
+
+					<div if="Inf-Fim">
+						<span class="inf-neg">
+							Endereço:
+						</span>
+						<br>
+						<span class="inf">
+							Ji Parana - RO
+						</span>
+				   </div>
+
+				 </div> <!--Conteiner-inf-->
+			 </div> <!--Conteudo-sobre-->
+			</div>

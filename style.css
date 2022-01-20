@@ -1,0 +1,67 @@
+@font-face { font-family: Century; src: url('GOTHIC.ttf');}
+ 
+body{
+font-family: Century;
+background: #f2f2f2;
+
+}
+
+.pagina{
+width:100%;
+overflow-x:auto;
+height:100%;
+margin: 0 auto;   
+}
+
+.linha{
+width:120%;
+padding:5px;
+height:110px;
+display:table;
+
+}
+.tile{
+height:200px;    
+width:200px;   
+float:left;
+margin:0 10px 0 0;
+padding:2px;
+}
+
+.tileLargo{
+width:260px;
+}
+
+.amarelo{
+
+}
+/*
+.vermelho{
+background: url("http://fotografiamais.com.br/wp-content/uploads/2015/06/marketing_para_fotografos-e1439823140909.jpg");
+}
+
+.azul{
+background: url("http://fotografiamais.com.br/wp-content/uploads/2015/06/fotografo_profissional-e1439823017921.jpg");
+}
+
+.verde{
+background: url("http://fotografiamais.com.br/wp-content/uploads/2015/06/fotografo_profissional-e1439823017921.jpg");
+}*/
+
+.tile img{
+width:200px;
+height:200px;
+margin:0;
+}
+   
+.tileLargo img {
+width:150px;
+margin:10px;
+}
+
+.tile:hover{
+background-color: red;
+}
+.amarelo:hover{
+background-color: white;
+}

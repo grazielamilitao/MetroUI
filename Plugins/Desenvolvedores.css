@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container{
+  background-color: white;
+  height: 1000px;
+}
+
+img.logo {
+  vertical-align: middle;
+  border-style: none;
+  width: 40px;
+}
+
+#img.img-default, #img.img-hover{
+  padding-top: 30px;
+}
+
+#img-default, #img-hover{
+  position: justify;
+}
+
+.img-box img.img-hover {
+  display: none;
+}
+
+.img-box:hover img.img-default {
+  display: none;
+}
+
+.img-box:hover img.img-hover {
+  display: inherit;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+.texto {
+  text-align: justify;
+  font-size: 20px;
+}
+
+#conteudo{
+  background-color: green;
+}
+
+#pagina{
+  background-color: white;
+}
+
+#pagina-menor{
+  margin-left: 200px;
+  max-width: 950px;
+  max-height: 500px;
+  background-color: white;
+}
+
+.imagem{
+  border-radius: 10px;
+}
+
+#texto, #imagem{
+  margin-top: 50px;
+  width: 50%;
+  background-color: white;
+  float:left;
+}
+
+#texto,#text{
+  text-align:justify;
+}
+
+#text{
+  margin-top: 10px;
+}
+
+#cont{
+  margin-left: 200px;
+  max-width: 950px;
+  max-height: 500px;
+  background-color: white;
+}
+
+#resto{
+  text-align: center;
+  background-color: white;
+  float:left;
+}
+
+#imagens{
+  margin-top: 50px;
+  width: 300px;
+  height: 500px;
+  float:left;
+}

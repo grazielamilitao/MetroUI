@@ -1,0 +1,146 @@
+html{
+  margin: 0; /*Tamanho das Margens*/
+  padding: 0;
+  border: 0;
+  font-size: 18px;
+}
+
+body{
+  background-color: #ffffff;
+  padding: 0;
+  display: block;
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#Container-Page {
+  position: absolute;
+  display: block;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.Container-Conteudo {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  background-color: #f1f1f1;
+  height: 1120px;
+}
+
+@media screen and (min-width: 768px)
+.Container-Fotos {
+  padding: 1rem;
+}
+
+* + .Container-Fotos {
+  margin-top: 1rem;
+}
+
+.Container-Fotos {
+  padding: 40px;
+  padding-left: 51px;
+  margin:  0 auto;
+  margin-top: -20px;
+  width: 90%;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.06);
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+}
+
+img.logo{
+  width: 65%;
+}
+
+.img-box img.img-hover {
+  display: none;
+}
+
+.img-box:hover img.img-default {
+  display: none;
+}
+
+.img-box:hover img.img-hover {
+  display: inherit;
+}
+
+.whatsapp{
+  width: 25px;
+}
+
+/*Formulario*/
+#Conteiner-Principal-Contato {
+    padding: 10px;
+    overflow: auto;
+}
+
+#Conteiner-Formulario {
+    float: left;
+    width: 60%;
+    padding: 5px;
+    margin-left: -10px;
+}
+
+#Conteiner-Conteudo-Contato{
+  background-color: #fff;
+  width: 92%;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.pgContato input {
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    background-color: transparent;
+    border: 1px solid currentColor;
+    outline: 0;
+    transition: border-color .2s;
+    font-family: 'Futura Bk BT', sans-serif;
+}
+
+.formContato input {
+    width: 99%;
+    height: 38px;
+}
+
+.formContato50 input {
+    width: 48.5%;
+    height: 38px;
+    display: inline;
+}
+
+.pgContato textarea {
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    background-color: transparent;
+    border: 1px solid currentColor;
+    outline: 0;
+    transition: border-color .2s;
+    font-family: 'Futura Bk BT', sans-serif;
+}
+
+.formContato textarea {
+    width: 99%;
+    height: auto;
+}
+#Conteiner-Informacoes{
+  float: right;
+  width: 30%;
+  padding: 10px;
+  margin-left: 10;
+}
