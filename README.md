@@ -1,3 +1,5 @@
+Dev's: Graziela, Gabriel, Ronald e Eisen.
+
 <p align="center">
   <a href="https://metroui.org.ua/v4/">
     <img src="https://metroui.org.ua/images/logo4.png" alt="">
